@@ -8,7 +8,7 @@ var app = express();
 function home(req, res){
   var msg = req.params.msg || 'Hello';
   var comp = Component({msg:msg});
-  res.send(React.renderToStaticMarkup(comp));
+  res.send(ReactDOM.renderToStaticMarkup(comp));
 }
 
 app.get('', home);

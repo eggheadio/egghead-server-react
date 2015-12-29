@@ -1,0 +1,151 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i', 'react-dom', '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 warn package.json egghead-server-side-react@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'react-dom', null ]
+7 verbose cache add name=undefined spec="react-dom" args=["react-dom",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'react-dom',
+8 verbose parsed url   path: 'react-dom',
+8 verbose parsed url   href: 'react-dom' }
+9 silly lockFile 7ddbc806-react-dom react-dom
+10 verbose lock react-dom /Users/zacjones93/.npm/7ddbc806-react-dom.lock
+11 silly lockFile 7ddbc806-react-dom react-dom
+12 silly lockFile 7ddbc806-react-dom react-dom
+13 verbose addNamed [ 'react-dom', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 59defc87-react-dom react-dom@
+16 verbose lock react-dom@ /Users/zacjones93/.npm/59defc87-react-dom.lock
+17 silly addNameRange { name: 'react-dom', range: '*', hasData: false }
+18 verbose request where is /react-dom
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 52852019500ba60b
+21 verbose url raw /react-dom
+22 verbose url resolving [ 'https://registry.npmjs.org/', './react-dom' ]
+23 verbose url resolved https://registry.npmjs.org/react-dom
+24 verbose request where is https://registry.npmjs.org/react-dom
+25 info trying registry request attempt 1 at 13:09:04
+26 http GET https://registry.npmjs.org/react-dom
+27 http 200 https://registry.npmjs.org/react-dom
+28 silly registry.get cb [ 200,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"CTF9Z61Y3DNJ1FIROCZB19G56"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=300',
+28 silly registry.get     'content-length': '11540',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Tue, 29 Dec 2015 21:09:01 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '60',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1451423341.547845,VS0,VE0',
+28 silly registry.get     vary: 'Accept' } ]
+29 silly addNameRange number 2 { name: 'react-dom', range: '*', hasData: true }
+30 silly addNameRange versions [ 'react-dom',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.14.0-beta1',
+30 silly addNameRange     '0.14.0-beta2',
+30 silly addNameRange     '0.14.0-beta3',
+30 silly addNameRange     '0.14.0-rc1',
+30 silly addNameRange     '0.14.0',
+30 silly addNameRange     '0.14.1',
+30 silly addNameRange     '0.14.2',
+30 silly addNameRange     '0.14.3' ] ]
+31 verbose addNamed [ 'react-dom', '0.14.3' ]
+32 verbose addNamed [ '0.14.3', '0.14.3' ]
+33 silly lockFile b6ba3ba3-react-dom-0-14-3 react-dom@0.14.3
+34 verbose lock react-dom@0.14.3 /Users/zacjones93/.npm/b6ba3ba3-react-dom-0-14-3.lock
+35 silly lockFile b6ba3ba3-react-dom-0-14-3 react-dom@0.14.3
+36 silly lockFile b6ba3ba3-react-dom-0-14-3 react-dom@0.14.3
+37 silly lockFile 59defc87-react-dom react-dom@
+38 silly lockFile 59defc87-react-dom react-dom@
+39 silly resolved [ { name: 'react-dom',
+39 silly resolved     version: '0.14.3',
+39 silly resolved     description: 'React package for working with the DOM.',
+39 silly resolved     main: 'index.js',
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'git+https://github.com/facebook/react.git' },
+39 silly resolved     keywords: [ 'react' ],
+39 silly resolved     license: 'BSD-3-Clause',
+39 silly resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+39 silly resolved     homepage: 'https://github.com/facebook/react/tree/master/npm-react-dom',
+39 silly resolved     peerDependencies: { react: '^0.14.3' },
+39 silly resolved     scripts: { start: 'node server.js' },
+39 silly resolved     _id: 'react-dom@0.14.3',
+39 silly resolved     _shasum: 'b3f0aeeed1a433b20c5458e34439a51916818628',
+39 silly resolved     _resolved: 'https://registry.npmjs.org/react-dom/-/react-dom-0.14.3.tgz',
+39 silly resolved     _from: 'react-dom@',
+39 silly resolved     _npmVersion: '2.14.7',
+39 silly resolved     _nodeVersion: '4.2.2',
+39 silly resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+39 silly resolved     maintainers: [ [Object], [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: 'b3f0aeeed1a433b20c5458e34439a51916818628',
+39 silly resolved        tarball: 'http://registry.npmjs.org/react-dom/-/react-dom-0.14.3.tgz' },
+39 silly resolved     directories: {},
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install react-dom@0.14.3 into /Users/zacjones93/Desktop/source/Egghead/egghead-server-react
+41 info installOne react-dom@0.14.3
+42 verbose node_modules/react-dom unbuild
+43 verbose tar unpack /Users/zacjones93/.npm/react-dom/0.14.3/package.tgz
+44 silly lockFile ec96f1bb-ver-react-node-modules-react-dom tar:///Users/zacjones93/Desktop/source/Egghead/egghead-server-react/node_modules/react-dom
+45 verbose lock tar:///Users/zacjones93/Desktop/source/Egghead/egghead-server-react/node_modules/react-dom /Users/zacjones93/.npm/ec96f1bb-ver-react-node-modules-react-dom.lock
+46 silly lockFile 644dcf0f-npm-react-dom-0-14-3-package-tgz tar:///Users/zacjones93/.npm/react-dom/0.14.3/package.tgz
+47 verbose lock tar:///Users/zacjones93/.npm/react-dom/0.14.3/package.tgz /Users/zacjones93/.npm/644dcf0f-npm-react-dom-0-14-3-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry LICENSE
+52 silly gunzTarPerm extractEntry index.js
+53 silly gunzTarPerm extractEntry server.js
+54 silly gunzTarPerm extractEntry PATENTS
+55 silly gunzTarPerm extractEntry dist/react-dom-server.js
+56 silly gunzTarPerm extractEntry dist/react-dom-server.min.js
+57 silly gunzTarPerm extractEntry dist/react-dom.js
+58 silly gunzTarPerm extractEntry dist/react-dom.min.js
+59 silly lockFile ec96f1bb-ver-react-node-modules-react-dom tar:///Users/zacjones93/Desktop/source/Egghead/egghead-server-react/node_modules/react-dom
+60 silly lockFile ec96f1bb-ver-react-node-modules-react-dom tar:///Users/zacjones93/Desktop/source/Egghead/egghead-server-react/node_modules/react-dom
+61 silly lockFile 644dcf0f-npm-react-dom-0-14-3-package-tgz tar:///Users/zacjones93/.npm/react-dom/0.14.3/package.tgz
+62 silly lockFile 644dcf0f-npm-react-dom-0-14-3-package-tgz tar:///Users/zacjones93/.npm/react-dom/0.14.3/package.tgz
+63 info preinstall react-dom@0.14.3
+64 verbose readDependencies using package.json deps
+65 verbose readDependencies using package.json deps
+66 silly resolved []
+67 verbose about to build /Users/zacjones93/Desktop/source/Egghead/egghead-server-react/node_modules/react-dom
+68 info build /Users/zacjones93/Desktop/source/Egghead/egghead-server-react/node_modules/react-dom
+69 verbose linkStuff [ false,
+69 verbose linkStuff   false,
+69 verbose linkStuff   false,
+69 verbose linkStuff   '/Users/zacjones93/Desktop/source/Egghead/egghead-server-react/node_modules' ]
+70 info linkStuff react-dom@0.14.3
+71 verbose linkBins react-dom@0.14.3
+72 verbose linkMans react-dom@0.14.3
+73 verbose rebuildBundles react-dom@0.14.3
+74 info install react-dom@0.14.3
+75 info postinstall react-dom@0.14.3
+76 verbose readDependencies using package.json deps
+77 verbose already installed skipping react@^0.14.3 /Users/zacjones93/Desktop/source/Egghead/egghead-server-react
+78 silly resolved []
+79 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+79 error peerinvalid Peer react-dom@0.14.3 wants react@^0.14.3
+80 error System Darwin 15.0.0
+81 error command "node" "/usr/local/bin/npm" "i" "react-dom" "--save"
+82 error cwd /Users/zacjones93/Desktop/source/Egghead/egghead-server-react
+83 error node -v v0.10.36
+84 error npm -v 1.4.28
+85 error code EPEERINVALID
+86 verbose exit [ 1, true ]
